@@ -1,0 +1,9 @@
+{ "type": "record",
+  "name": "ClickRecord",
+  "fields": [
+     {"name": "Description", "type": "string"},
+     {"name": "Quantity", "type": ["string", "null"]},
+     {"name": "UnitPrice", "type": ["string", "null"]},
+     {"name": "CustomerID", "type": ["string", "null"],"default": "None"}
+   ]
+}
